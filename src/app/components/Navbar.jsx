@@ -43,11 +43,23 @@ export default function Navbar() {
                                 width={33}
                                 height={33}
                                 alt="Logo"
-                                title=''
+                                title='Home'
                             />
                         </a>
                     </div>
-                    
+
+                    {isScrolled && (
+                        <div className='flex items-center justify-center'>
+                            <Image
+                                src="/spider.png"
+                                width={50}
+                                height={50}
+                                alt="Profile Pic"
+                                className='rounded-full shadow-md'
+                            />
+                        </div>
+                    )}
+
                     <div className='flex items-center justify-center'>
                         <button className='text-2xl'><FcAbout /></button>
                     </div>
