@@ -28,13 +28,13 @@ export default function Navbar({ profile }) {
             <nav className="flex items-center justify-center py-2 lg:py-4">
                 <div className={
                     isScrolled ?
-                        "flex w-full max-w-2xl items-center justify-between p-3 m-3 rounded-full border border-solid backdrop-blur border-gray-600 bg-opacity-35"
+                        "flex w-full max-w-2xl items-center justify-between p-3 mx-3 sm:mx-auto rounded-full border border-solid backdrop-blur border-gray-600 bg-opacity-50"
                         :
-                        "flex w-full max-w-2xl items-center justify-between p-3 m-3"
+                        "flex w-full max-w-2xl items-center justify-between p-3 mx-3 sm:mx-auto"
                 }>
                     <div>
                         <a
-                            className="my-1 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0"
+                            className="flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0"
                             href="/"
                             title='Home'
                         >

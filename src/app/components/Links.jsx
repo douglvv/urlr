@@ -22,8 +22,8 @@ const links = [
 export default function Links() {
     return(
         <ul>
-            {links.map(link => (
-                <li key={link.title}>
+            {links.map((link, index) => (
+                <li key={index}>
                     <LinkButton link={link} />
                 </li>
             ))}
