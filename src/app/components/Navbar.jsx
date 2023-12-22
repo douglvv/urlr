@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { FcAbout } from "react-icons/fc";
 import { useEffect, useState } from 'react';
 
-export default function Navbar() {
+export default function Navbar({ profile }) {
     const [isScrolled, setIsScrolled] = useState(false);
 
     useEffect(() => {
@@ -28,11 +28,10 @@ export default function Navbar() {
             <nav className="flex items-center justify-center py-2 lg:py-4">
                 <div className={
                     isScrolled ?
-                        "flex w-full max-w-2xl items-center justify-between p-3 m-3 rounded-3xl border border-solid backdrop-blur border-gray-600 bg-opacity-50 bg shadow-inner shadow-gray-900"
+                        "flex w-full max-w-2xl items-center justify-between p-3 m-3 rounded-full border border-solid backdrop-blur border-gray-600 bg-opacity-35"
                         :
                         "flex w-full max-w-2xl items-center justify-between p-3 m-3"
-                }
-                >
+                }>
                     <div>
                         <a
                             className="my-1 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0"
@@ -51,10 +50,10 @@ export default function Navbar() {
                     {isScrolled && (
                         <div className='flex items-center justify-center'>
                             <Image
-                                src="/spider.png"
+                                src={profile.imgSrc}
                                 width={50}
                                 height={50}
-                                alt="Profile Pic"
+                                alt={profile.title}
                                 className='rounded-full shadow-md'
                             />
                         </div>
