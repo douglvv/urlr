@@ -8,7 +8,7 @@ export default function Navbar() {
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY > 100) {
+            if (window.scrollY > 80) {
                 setIsScrolled(true);
             } else {
                 setIsScrolled(false);
@@ -24,26 +24,26 @@ export default function Navbar() {
 
 
     return (
-        <header className='sticky z-50 top-0 transition duration-300'>
-            <nav className="flex items-center justify-center py-2 lg:py-4 transition duration-300">
+        <header className='sticky z-50 top-0'>
+            <nav className="flex items-center justify-center py-2 lg:py-4">
                 <div className={
                     isScrolled ?
-                        "flex w-full max-w-2xl items-center justify-between p-3 m-3 rounded-3xl border border-solid backdrop-blur border-gray-600 bg-opacity-50 bg shadow-sm transition"
+                        "flex w-full max-w-2xl items-center justify-between p-3 m-3 rounded-3xl border border-solid backdrop-blur border-gray-600 bg-opacity-50 bg shadow-sm"
                         :
-                        "flex w-full max-w-2xl items-center justify-between p-3 m-3 transition "
+                        "flex w-full max-w-2xl items-center justify-between p-3 m-3"
                 }
                 >
                     <div>
                         <a
                             className="my-1 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0"
-                            href="#"
+                            href="/"
+                            title='Home'
                         >
                             <Image
                                 src="/logo.png"
                                 width={33}
                                 height={33}
                                 alt="Logo"
-                                title='Home'
                             />
                         </a>
                     </div>
@@ -61,7 +61,7 @@ export default function Navbar() {
                     )}
 
                     <div className='flex items-center justify-center'>
-                        <button className='text-2xl'><FcAbout /></button>
+                        <button className='text-2xl' title='Sobre'><FcAbout /></button>
                     </div>
                 </div>
             </nav>
