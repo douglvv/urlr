@@ -28,7 +28,7 @@ export default function Navbar() {
             <nav className="flex items-center justify-center py-2 lg:py-4">
                 <div className={
                     isScrolled ?
-                        "flex w-full max-w-2xl items-center justify-between p-3 m-3 rounded-3xl border border-solid backdrop-blur border-gray-600 bg-opacity-50 bg shadow-sm"
+                        "flex w-full max-w-2xl items-center justify-between p-3 m-3 rounded-3xl border border-solid backdrop-blur border-gray-600 bg-opacity-50 bg shadow-inner shadow-gray-900"
                         :
                         "flex w-full max-w-2xl items-center justify-between p-3 m-3"
                 }

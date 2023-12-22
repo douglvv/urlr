@@ -10,6 +10,6 @@
 
 body {
   background-color: black;
-  /* color: white; */
+  background-image: linear-gradient(to left bottom, #000000, #030303, #060606, #090909, #0c0c0c, #0d0d0d, #0d0d0e, #0e0e0f, #0d0d0f, #0c0c0f, #0b0b0f, #0a0a0f);
 }
 

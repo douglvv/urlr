@@ -2,7 +2,7 @@ import { Poppins } from 'next/font/google'
 import './globals.css'
 import Navbar from './components/Navbar'
 
-const poppins = Poppins({ subsets: ['latin'], weight: "700" })
+const poppins = Poppins({ subsets: ['latin'], weight: "500" })
 
 export const metadata = {
   title: 'URLR',
