@@ -24,11 +24,11 @@ export default function Navbar() {
 
 
     return (
-        <header className='sticky z-50 top-0'>
-            <nav className="flex w-screen items-center justify-center py-2 lg:py-4">
+        <header className='sticky z-50 top-0 transition duration-300'>
+            <nav className="flex items-center justify-center py-2 lg:py-4 transition duration-300">
                 <div className={
                     isScrolled ?
-                        "flex w-full max-w-2xl items-center justify-between p-3 m-3 rounded-3xl border border-solid backdrop-blur border-gray-300 bg-opacity-50 bg shadow-sm transition"
+                        "flex w-full max-w-2xl items-center justify-between p-3 m-3 rounded-3xl border border-solid backdrop-blur border-gray-600 bg-opacity-50 bg shadow-sm transition"
                         :
                         "flex w-full max-w-2xl items-center justify-between p-3 m-3 transition "
                 }
@@ -47,6 +47,7 @@ export default function Navbar() {
                             />
                         </a>
                     </div>
+                    
                     <div className='flex items-center justify-center'>
                         <button className='text-2xl'><FcAbout /></button>
                     </div>
