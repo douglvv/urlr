@@ -3,7 +3,7 @@ import LinkButton from "./LinkButton"
 import { useSelector } from 'react-redux'
 
 export default function Links() {
-    const links = useSelector(state => state.links.links)
+    const links = useSelector(state => state.links)
 
     return(
         <ul>
