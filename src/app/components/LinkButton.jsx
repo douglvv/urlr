@@ -8,6 +8,7 @@ export default function LinkButton({link}) {
                         border border-[#6C757D] shadow-sm shadow-[#343A40]
                         font-semibold text-base text-center block text-[#ADB5BD]"
                 href={link.url}
+                target='blank'
             >
                 {link.title}
             </Link>
