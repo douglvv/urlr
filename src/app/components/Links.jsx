@@ -1,25 +1,10 @@
+"use client"
 import LinkButton from "./LinkButton"
-
-const links = [
-    {title: 'Instagram', url: 'https://www.instagram.com/spiderman'},
-    {title: 'Youtube', url: 'https://www.youtube.com'},
-    {title: 'Tiktok', url: 'https://www.tiktok.com'},
-    {title: 'Twitch', url: 'https://twitch.tv'},
-    {title: 'Instagram', url: 'https://www.instagram.com/spiderman'},
-    {title: 'Youtube', url: 'https://www.youtube.com'},
-    {title: 'Tiktok', url: 'https://www.tiktok.com'},
-    {title: 'Twitch', url: 'https://twitch.tv'},
-    {title: 'Instagram', url: 'https://www.instagram.com/spiderman'},
-    {title: 'Youtube', url: 'https://www.youtube.com'},
-    {title: 'Tiktok', url: 'https://www.tiktok.com'},
-    {title: 'Twitch', url: 'https://twitch.tv'},
-    {title: 'Instagram', url: 'https://www.instagram.com/spiderman'},
-    {title: 'Youtube', url: 'https://www.youtube.com'},
-    {title: 'Tiktok', url: 'https://www.tiktok.com'},
-    {title: 'Twitch', url: 'https://twitch.tv'},
-]
+import { useSelector } from 'react-redux'
 
 export default function Links() {
+    const links = useSelector(state => state.links.links)
+
     return(
         <ul>
             {links.map((link, index) => (
