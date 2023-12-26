@@ -5,19 +5,10 @@ const initialState = {
         { title: 'Instagram', url: 'https://www.instagram.com/spiderman' },
         { title: 'Youtube', url: 'https://www.youtube.com' },
         { title: 'Tiktok', url: 'https://www.tiktok.com' },
-        { title: 'Twitch', url: 'https://twitch.tv' },
-        { title: 'Instagram', url: 'https://www.instagram.com/spiderman' },
-        { title: 'Youtube', url: 'https://www.youtube.com' },
-        { title: 'Tiktok', url: 'https://www.tiktok.com' },
-        { title: 'Twitch', url: 'https://twitch.tv' },
-        { title: 'Instagram', url: 'https://www.instagram.com/spiderman' },
-        { title: 'Youtube', url: 'https://www.youtube.com' },
-        { title: 'Tiktok', url: 'https://www.tiktok.com' },
-        { title: 'Twitch', url: 'https://twitch.tv' },
-        { title: 'Instagram', url: 'https://www.instagram.com/spiderman' },
-        { title: 'Youtube', url: 'https://www.youtube.com' },
-        { title: 'Tiktok', url: 'https://www.tiktok.com' },
-        { title: 'Twitch', url: 'https://twitch.tv' },
+        { title: 'Twitch', url: 'https://twitch.tv' },        
+        { title: 'Facebook', url: 'https://facebook.com' },
+        { title: 'Pinterest', url: 'https://pinterest.com' },
+        { title: 'Website', url: 'https://spiderman.com' },
     ]
 }
 

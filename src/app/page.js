@@ -4,15 +4,20 @@ import useProfile from "./utils/useProfile"
 
 export default function Home() {
   const profile = useProfile();
-  
-  return (  
+
+  return (
     <main className="mt-0">
       <Profile
         imgSrc={profile.imgSrc}
         title={profile.title}
         bio={profile.bio}
       />
-      <Links />
+
+      <div className="container mx-auto max-w-2xl text-center justify-center">
+        <Links />
+      </div>
+
+
     </main>
   )
 }
