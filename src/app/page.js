@@ -6,7 +6,7 @@ export default function Home() {
   const profile = useProfile();
 
   return (
-    <main className="mt-0">
+    <main className="mt-0 h-screen">
       <Profile
         imgSrc={profile.imgSrc}
         title={profile.title}
