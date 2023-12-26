@@ -30,7 +30,7 @@ export default function Links() {
                         {links.map((link, index) => (
                             <Draggable key={link.url} index={index} draggableId={link.url}>
                                 {(provided) => (
-                                    <li>
+                                    <li className="flex">
                                         <LinkButton link={link} provided={provided} />
                                     </li>
                                 )}
