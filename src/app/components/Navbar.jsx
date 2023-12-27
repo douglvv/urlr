@@ -3,6 +3,8 @@ import Image from 'next/image';
 import { FcAbout } from "react-icons/fc";
 import { useEffect, useState } from 'react';
 
+
+// PAROU DE FUNCIONAR O EFEITO DO SCROLL
 export default function Navbar({ profile }) {
     const [isScrolled, setIsScrolled] = useState(false);
 

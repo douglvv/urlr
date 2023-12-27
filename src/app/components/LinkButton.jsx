@@ -2,7 +2,7 @@ import { RxDragHandleHorizontal } from 'react-icons/rx';
 
 export default function LinkButton({ link, provided }) {
   return (
-    <button
+    <a
       className="w-full max-w-2xl mx-3 mt-3 mb-2 p-3 rounded-lg
                         border border-[#6C757D] shadow-sm shadow-[#343A40]
                         font-semibold text-base text-center text-[#ADB5BD]
@@ -20,6 +20,6 @@ export default function LinkButton({ link, provided }) {
         <span>{link.title}</span>
       </div>
 
-    </button>
+    </a>
   )
 }
