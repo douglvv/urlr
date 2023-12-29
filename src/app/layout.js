@@ -3,6 +3,7 @@ import './globals.css'
 import Navbar from './components/Navbar'
 import useProfile from './utils/useProfile'
 import { Providers } from './redux/provider'
+import Footer from './components/Footer'
 
 const poppins = Poppins({ subsets: ['latin'], weight: "500" })
 
@@ -23,11 +24,13 @@ export default function RootLayout({ children }) {
           <Navbar profile={profile} />
 
           {children}
-
+          
         </Providers>
 
       </body>
 
+      {/* <Footer /> */}
+    
     </html>
   )
 }

@@ -5,10 +5,14 @@ const initialState = {
         { title: 'Instagram', url: 'https://www.instagram.com/spiderman' },
         { title: 'Youtube', url: 'https://www.youtube.com' },
         { title: 'Tiktok', url: 'https://www.tiktok.com' },
-        { title: 'Twitch', url: 'https://twitch.tv' },        
+        { title: 'Twitch', url: 'https://twitch.tv' },
         { title: 'Facebook', url: 'https://facebook.com' },
         { title: 'Pinterest', url: 'https://pinterest.com' },
         { title: 'Website', url: 'https://spiderman.com' },
+        { title: 'Twitter', url: 'https://twitter.com' },
+        { title: 'LinkedIn', url: 'https://linkedin.com' },
+        { title: 'Reddit', url: 'https://www.reddit.com' },
+        { title: 'GitHub', url: 'https://github.com' },
     ]
 }
 
