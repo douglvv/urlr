@@ -12,7 +12,6 @@ const initialState = {
         { title: 'Twitter', url: 'https://twitter.com' },
         { title: 'LinkedIn', url: 'https://linkedin.com' },
         { title: 'Reddit', url: 'https://www.reddit.com' },
-        { title: 'GitHub', url: 'https://github.com' },
     ]
 }
 
