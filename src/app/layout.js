@@ -20,17 +20,16 @@ export default function RootLayout({ children }) {
 
       <body className={`${poppins.className}`}>
         <Providers>
-          
+
           <Navbar profile={profile} />
 
           {children}
-          
+
+          <Footer />
         </Providers>
 
       </body>
-
-      {/* <Footer /> */}
-    
+      
     </html>
   )
 }

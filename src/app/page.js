@@ -6,16 +6,17 @@ export default function Home() {
   const profile = useProfile();
 
   return (
-    <main className="mt-0 h-screen">
+    <main className="min-h-screen flex flex-col justify-between">
       <Profile
         imgSrc={profile.imgSrc}
         title={profile.title}
         bio={profile.bio}
       />
 
-      <div className="container mx-auto max-w-2xl text-center justify-center">
+      <div className="container mx-auto max-w-2xl text-center justify-center flex-grow">
         <Links />
       </div>
+
     </main>
-  )
+  );
 }

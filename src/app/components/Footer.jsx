@@ -1,13 +1,14 @@
 export default function Footer() {
     return (
         <footer
-            class="bg-neutral-200 text-center dark:bg-neutral-700 lg:text-left">
-            <div class="p-4 text-center text-neutral-700 dark:text-neutral-200">
+            class="bg-[#343A40] text-center lg:text-left mt-4">
+            <div class="p-4 text-center text-[#F8F9FA]">
                 © 2023 Copyright:
                 <a
-                    class="text-neutral-800 dark:text-neutral-400"
-                    href="https://tw-elements.com/"
-                >TW elements</a>
+                    className="text-blue-500"
+                    href="https://github.com/douglvv"
+                    title="Github"
+                > @douglvv</a>
             </div>
         </footer>
     )
