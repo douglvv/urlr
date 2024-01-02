@@ -58,7 +58,7 @@ export default function Navbar({ profile }) {
                   <a
                     className="flex items-center lg:mb-0 lg:mt-0 px-3 text-3xl text-[#CED4DA] hover:text-[#F8F9FA] hover:rotate-180 focus:rotate-180 transition duration-500 transform"
                     href="/"
-                    title="Home"
+                    title="Início"
                   >
                     <FaLink />
                   </a>

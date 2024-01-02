@@ -27,7 +27,7 @@ export default function LinkButton({ link, index }) {
               className="mr-2 p-3 text-2xl text-gray-400 transition duration-300
               hover:text-[#F8F9FA] hover:scale-125 active:text-[#F8F9FA] active:scale-125"
             >
-              <RxDragHandleHorizontal title='Drag to reorder' />
+              <RxDragHandleHorizontal title='Arraste para reordenar' />
             </div>
 
             <a className="flex-1 p-3"
