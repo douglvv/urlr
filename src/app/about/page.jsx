@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function About() {
     return (
-        <div className="container mx-auto max-w-3xl px-4 py-12">
+        <div className="container mx-auto max-w-3xl px-4 py-12 h-screen">
             <div className="rounded-lg shadow-lg p-6 border border-gray-500">
                 <h1 className="text-3xl font-semibold mb-6 text-center">Sobre o Projeto</h1>
                 <p className="text-lg leading-relaxed mb-6">
