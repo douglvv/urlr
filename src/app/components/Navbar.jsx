@@ -1,10 +1,10 @@
 "use client"
 import Image from 'next/image';
-import { FcAbout } from "react-icons/fc";
+import { AiOutlineInfoCircle } from "react-icons/ai";
+import { FaLink } from "react-icons/fa";
 import { useEffect, useState } from 'react';
 
 
-// PAROU DE FUNCIONAR O EFEITO DO SCROLL
 export default function Navbar({ profile }) {
     const [isScrolled, setIsScrolled] = useState(false);
 
@@ -36,16 +36,11 @@ export default function Navbar({ profile }) {
                 }>
                     <div>
                         <a
-                            className="flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0"
+                            className="flex items-center lg:mb-0 lg:mt-0 px-3 text-3xl text-[#CED4DA] hover:text-[#F8F9FA] hover:rotate-180 focus:rotate-180 transition duration-500 transform"
                             href="/"
                             title='Home'
                         >
-                            <Image
-                                src="/logo.png"
-                                width={33}
-                                height={33}
-                                alt="Logo"
-                            />
+                            <FaLink />
                         </a>
                     </div>
 
@@ -62,7 +57,7 @@ export default function Navbar({ profile }) {
                     )}
 
                     <div className='flex items-center justify-center'>
-                        <button className='text-2xl' title='Sobre'><FcAbout /></button>
+                        <button className='text-3xl px-3 text-[#CED4DA] hover:text-[#F8F9FA] focus:text-[#F8F9FA] transition duration-300' title='Sobre'><AiOutlineInfoCircle /></button>
                     </div>
                 </div>
             </nav>

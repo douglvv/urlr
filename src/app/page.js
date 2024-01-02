@@ -16,8 +16,6 @@ export default function Home() {
       <div className="container mx-auto max-w-2xl text-center justify-center">
         <Links />
       </div>
-
-
     </main>
   )
 }
