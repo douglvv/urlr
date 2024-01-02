@@ -80,7 +80,7 @@ export default function Navbar({ profile }) {
 
           <div className="flex items-center justify-center">
             <AnimatePresence mode='wait'>              
-                <motion.button
+                <motion.a
                   key="info-icon"
                   variants={infoIconVariants}
                   initial="initial"
@@ -88,9 +88,10 @@ export default function Navbar({ profile }) {
                   exit="exit"
                   className="text-3xl px-3 text-[#CED4DA] hover:text-[#F8F9FA] focus:text-[#F8F9FA] transition duration-300"
                   title="Sobre"
+                  href='/about'
                 >
                   <AiOutlineInfoCircle />
-                </motion.button>
+                </motion.a>
             </AnimatePresence>
           </div>
         </div>

@@ -1,11 +1,10 @@
 import { FaLink } from 'react-icons/fa';
 
-const Loading = () => {
+export default function Loading() {
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center">
       <FaLink className="text-5xl animate-spin" />
     </div>
   );
 };
 
-export default Loading;
