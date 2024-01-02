@@ -9,6 +9,10 @@ Este projeto é uma interface de usuário inspirada no conceito do Link Tree, de
 
 A principal funcionalidade é permitir a organização e persistência de links, oferecendo a capacidade de reordená-los por meio de drag and drop. As alterações na ordem dos links são salvas utilizando Redux Persist para armazenamento local.
 
+## Live demo
+
+Você pode conferir uma demonstração do projeto [aqui](https://urlr-spider.vercel.app/).
+
 ## Tecnologias Utilizadas
 
 - **Next.js:** Framework React utilizado para renderização do lado do servidor e criação de páginas estáticas e dinâmicas.
