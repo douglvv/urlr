@@ -11,7 +11,7 @@ A principal funcionalidade é permitir a organização e persistência de links,
 
 ## Live demo
 
-Você pode conferir uma demonstração do projeto [aqui](https://urlr-spider.vercel.app/).
+Você pode conferir uma demonstração do projeto [aqui](https://urlrr.vercel.app/).
 
 ## Tecnologias Utilizadas
 
