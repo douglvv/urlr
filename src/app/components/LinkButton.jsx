@@ -8,17 +8,18 @@ export default function LinkButton({ link, index }) {
     <Draggable index={index} draggableId={link.url}>
       {(provided) => (
         <motion.li
-          className="flex"
+          className="flex justify-center"          
           drag
+          draggable
           initial={{ x: '-100vw' }}
           animate={{ x: 0 }}
           transition={{ type: 'spring', stiffness: 50, delay: index * 0.2 + 0.75 }}
         >
           <div
-            className="w-full max-w-2xl m-3 rounded-lg
+            className="w-full max-w-xl my-3 mx-5 rounded-lg
                         border border-[#6C757D] shadow-sm shadow-[#343A40]
                         font-semibold text-base text-center flex bg-[#343A40]
-                        hover:scale-[1.025]"
+                        hover:scale-[1.025] touch-auto"
             {...provided.draggableProps}
             ref={provided.innerRef}
           >

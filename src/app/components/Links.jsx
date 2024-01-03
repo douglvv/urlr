@@ -1,9 +1,9 @@
 "use client"
-import { DragDropContext, Draggable, Droppable } from 'react-beautiful-dnd';
+import { DragDropContext, Droppable } from 'react-beautiful-dnd';
 import LinkButton from './LinkButton';
 import { useSelector, useDispatch } from 'react-redux';
 import { updateLinks } from '../redux/linksSlice';
-import { motion, AnimatePresence } from 'framer-motion';
+import { AnimatePresence } from 'framer-motion';
 
 export default function Links() {
     const links = useSelector((state) => state.links);
@@ -30,8 +30,8 @@ export default function Links() {
                             {links.map((link, index) => (
                                 <LinkButton key={link.url} link={link} index={index} />
                             ))}
-                        </AnimatePresence>
                         {provided.placeholder}
+                        </AnimatePresence>
                     </ul>
                 )}
             </Droppable>

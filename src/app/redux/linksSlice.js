@@ -2,13 +2,13 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
     links: [
-        { title: 'Instagram', url: 'https://www.instagram.com/spiderman' },
+        { title: 'Instagram', url: 'https://www.instagram.com/' },
         { title: 'Youtube', url: 'https://www.youtube.com' },
         { title: 'Tiktok', url: 'https://www.tiktok.com' },
         { title: 'Twitch', url: 'https://twitch.tv' },
         { title: 'Facebook', url: 'https://facebook.com' },
         { title: 'Pinterest', url: 'https://pinterest.com' },
-        { title: 'Website', url: 'https://spiderman.com' },
+        { title: 'Website', url: 'https://google.com' },
         { title: 'Twitter', url: 'https://twitter.com' },
         { title: 'LinkedIn', url: 'https://linkedin.com' },
         { title: 'Reddit', url: 'https://www.reddit.com' },

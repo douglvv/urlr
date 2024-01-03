@@ -26,14 +26,14 @@ export default function Navbar({ profile }) {
 
   const linkIconVariants = {
     initial: { rotate: 180 },
-    animate: { rotate: 0, transition: { duration: 0.5 } },
-    exit: { rotate: -180, transition: { duration: 0.5 } },
+    animate: { rotate: 0, transition: { duration: 0.75 } },
+    exit: { rotate: -180, transition: { duration: 0.75 } },
   };
 
   const infoIconVariants = {
     initial: { opacity: 0 },
-    animate: { opacity: 1, transition: { duration: 0.5 } },
-    exit: { opacity: 0, transition: { duration: 0.5 } },
+    animate: { opacity: 1, transition: { duration: 1 } },
+    exit: { opacity: 0, transition: { duration: 1 } },
   };
 
   return (
